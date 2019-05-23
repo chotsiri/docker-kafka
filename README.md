@@ -41,4 +41,5 @@ Build from Source
 
 Ref
 ---
+* **[kafka download](https://kafka.apache.org/downloads)**
 * **[spotify/docker-kafka](https://github.com/spotify/docker-kafka)**
