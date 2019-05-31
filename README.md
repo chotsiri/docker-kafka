@@ -26,6 +26,10 @@ Create a topic
         --topic test
 ```
 
+Update
+---
+- 31/052019 Add vim 
+
 In the box
 ---
 * **chotsiri/kafka**

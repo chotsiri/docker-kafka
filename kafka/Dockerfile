@@ -11,6 +11,7 @@ RUN sed -i '/deb http:\/\/deb.debian.org\/debian jessie-updates main/d' /etc/apt
 # Install Kafka, Zookeeper and other needed things
 RUN apt-get -o Acquire::Check-Valid-Until=false update && \
     apt-get -o Acquire::Check-Valid-Until=false install -y zookeeper wget supervisor dnsutils && \
+    apt-get install -y vim && \
     rm -rf /var/lib/apt/lists/* && \
     apt-get clean && \
     wget -q https://archive.apache.org/dist/kafka/"$KAFKA_VERSION"/kafka_"$SCALA_VERSION"-"$KAFKA_VERSION".tgz -O /tmp/kafka_"$SCALA_VERSION"-"$KAFKA_VERSION".tgz && \
