@@ -1,3 +1,8 @@
+Supported tag
+===
+- 1.0
+
+
 Kafka and Zookeeper in Docker
 ===
 
