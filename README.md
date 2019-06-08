@@ -13,7 +13,7 @@ Run
 		--hostname localhost \
 		--env ADVERTISED_HOST=127.0.0.1 \
 		--env ADVERTISED_PORT=9092 \
-		--name kafkadev chotsiri/kafka
+		--name kafkadev taggdev/kafka
 ```
 
 Create a topic
@@ -32,16 +32,16 @@ Update
 
 In the box
 ---
-* **chotsiri/kafka**
+* **taggdev/kafka**
 
 Public Builds
 ---
-https://hub.docker.com/r/chotsiri/kafka
+https://hub.docker.com/r/taggdev/kafka
 
 Build from Source
 ---
 
-    docker build -t chotsiri/kafka kafka/
+    docker build -t taggdev/kafka kafka/
 
 Ref
 ---
